@@ -27,12 +27,14 @@ Media Queries: Implemented to adapt the layout to different screen widths.
   To get this project running locally, follow these steps:
   
  **Clone the repository:**
-    git clone https://github.com/yourusername/project-repo.git
+    git clone https://github.com/singaramdivya/rentnestrentalroom
   
 **Navigate to the project directory:**
   cd project-repo
   Open the project in your browser:
   Open index.html file in any modern browser to view the layout.
+
+
 
 **Usage**
   Once the project is set up, you can use it as a reference for:
@@ -40,10 +42,12 @@ Media Queries: Implemented to adapt the layout to different screen widths.
   Learning how to create a basic responsive layout with HTML and CSS.
   Experimenting with new design styles or adding more components.
   Using it as a starter template for more complex web applications.
-  Feel free to modify the content and styles as per your needs.
 
 **Design Process**
   This project is designed using the following key approaches:
+
+  **In this Design, In Pricing Section, When we hover to the card it will rotate 180degs and show the details of that plan. I designed this because i want to display every detail
+  in the available design as in this assignement we are not using Javascript to display details.**
 
 **Wireframe and Prototype:**
 
