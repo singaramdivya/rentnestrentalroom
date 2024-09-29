@@ -735,6 +735,18 @@ footer {
     .card{
         display: none;
     }
+    .header{
+        position:relative;
+        
+    }
+    .hero-content{
+        position:absolute;
+        top:20%;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (max-width: 480px) {
