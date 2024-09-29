@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RentBro - Simplifying the rental process">
+    <title>RentNest - Simplifying Room Rentals</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header" id="home">
+        <div class="top-bar">
+            <p>FIND A ROOM TO RENT COAST TO COAST, NATIONWIDE.</p>
+        </div>
+        <div class="triangle-container">
+            <div class="inner-triangle">
+                <nav class="navbar">
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <div class="logo">
+                            <img src="icons/logo.png" alt="EZ Living Inc. Logo">
+                            <p>RentNest.<br><span>Rent With Ease, Live Style</span></p>
+                        </div>
+                        <li><a href="#about-us">About Us</a></li>
+                        <li><a href="#contact">Support</a></li>
+                        <li><a href="#">SignIn</a></li>
+                    </ul> 
+                </nav>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="overlay">
+                <div class="searchable-container">
+                    <div>
+                        <h2>FIND A ROOM NEAR YOU</h2>
+                    </div>
+                    <div class="search-bar">
+                        <select name="city">
+                            <option value="">CITY</option>
+                            
+                        </select>
+                        <select name="state">
+                            <option value="">STATE</option>
+                            
+                        </select>
+                        <input type="text" placeholder="ZIP CODE">
+                        <button class="btn search-btn">SEARCH NOW</button>
+                    </div>
+                    <div class="slider-container">
+                        <label for="radius">Set Search Radius</label>
+                        <input type="range" id="radius" name="radius" min="1" max="100">
+                    </div>
+                </div>
+                <div class="advanced-options">
+                    <button class="btn">ADVANCED SEARCH</button>
+                    <button class="btn">LIST A ROOM</button>
+                    <button class="btn">FIND A ROOM</button>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+    
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <h2>Why Choose RentNest.?</h2>
+        <div class="feature-container">
+            <div class="feature">
+                <img src="icons/filter.png" alt="Search">
+                <h3>Easy Search & Filters</h3>
+                <p>Find the right space with filters like location, price, and amenities.</p>
+            </div>
+            <div class="feature">
+                <img src="icons/secure.png" alt="Payments">
+                <h3>Secure Payments</h3>
+                <p>Pay safely through trusted platforms like PayU or Razorpay.</p>
+            </div>
+            <div class="feature">
+                <img src="icons/verified.png" alt="Verified Listings">
+                <h3>Verified Listings</h3>
+                <p>All rooms are eKYC verified to ensure authenticity.</p>
+            </div>
+            <div class="feature">
+                <img src="icons/review.png" alt="Reviews">
+                <h3>User Reviews & Ratings</h3>
+                <p>Read reviews and ratings from previous renters to make informed decisions.</p>
+            </div>
+            <div class="feature">
+                <img src="icons/support.png" alt="24/7 Support">
+                <h3>24/7 Support</h3>
+                <p>Our team is here to help you with any concerns, anytime.</p>
+            </div>
+            <div class="feature">
+                <img src="icons/lease.png" alt="Flexible Lease">
+                <h3>Flexible Lease Terms</h3>
+                <p>Choose from short-term and long-term rental agreements.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+
+    <section class="aboutus-section" id="about-us">
+        <h2>About Us</h2>
+        <div class="about-us-container">
+            <div class="about-us-content">
+                <h4>Welcome to RentNest, where finding your perfect home or investment property is just a few clicks away.</h4>
+                <p>At RentNest, we believe that renting a property should be a simple, transparent, and stress-free process. Whether you're a tenant looking for a cozy place to call home, a landlord seeking reliable tenants, or an investor searching for lucrative real estate opportunities, we are here to help you every step of the way.</p>
+                <div class="about-section-btn">
+                    <button>Learn More</button>
+                </div>
+                <div class="subscribe-section">
+                    <h2>Subscribe to Our Newsletter</h2>
+                    <p>Stay updated with the latest news and special offers.</p>
+                    <form action="#" method="post" class="form">
+                      <input type="email" placeholder="Enter your email" required>
+                      <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="about-us-image"></div>
+            <div class="card card1">
+                <h5>Our Mission</h5>
+                <p>Our mission is to revolutionize the rental market by providing a seamless platform that connects tenants with landlords and property managers. We aim to eliminate the complexities of property renting by offering a user-friendly platform where you can browse, compare, and rent properties with ease.</p>
+            </div>
+            <div class="card card2">
+                <h5>Our Values</h5>
+                <p>By constantly innovating and upgrading our platform, we aim to provide a cutting-edge solution for property rentals.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <h2>Pricing Plans</h2>
+        <div class="pricing-container">
+            <div class="plan">
+                <div class="plan-side plan-front">
+                    <h3>Basic Plan</h3>
+                    <p>Free listing for one property, basic support.</p>
+                    <div class="price">$0</div>
+                    <p class="para">Read more <span>&#8594;</span></p>
+                </div>
+                <div class="plan-side plan-back">
+                    <h3>Details</h3>
+                    <p>Basic Plan includes listing for one property.</p>
+                    <a href="#" class="cta-btn">Choose Plan</a>
+                </div>
+            </div>
+            <div class="plan">
+                <div class="plan-side plan-front">
+                    <h3>Premium Plan</h3>
+                    <p>Unlimited listings, featured placements, and priority support.</p>
+                    <div class="price">$50/month</div>
+                    <p class="para">Read more <span>&#8594;</span></p>
+                </div>
+                <div class="plan-side plan-back">
+                    <h3>Details</h3>
+                    <p>Premium Plan offers unlimited listings with featured placement.</p>
+                    <a href="#" class="cta-btn">Choose Plan</a>
+                </div>
+            </div>
+            <div class="plan">
+                <div class="plan-side plan-front">
+                    <h3>Enterprise Plan</h3>
+                    <p>Custom solutions for agencies and large property owners.</p>
+                    <div class="price">Contact Us</div>
+                    <p class="para">Read more <span>&#8594;</span></p>
+                </div>
+                <div class="plan-side plan-back">
+                    <h3>Details</h3>
+                    <p>Enterprise Plan offers custom solutions for large agencies.</p>
+                    <a href="#" class="cta-btn">Choose Plan</a>
+                </div>
+            </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact-section" id="contact">
+        <div class="yellow-bg"></div>
+        <div class="contact-card">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+              <div class="contact-item">
+                <span class="icon">📍</span>
+                <p>123 Anywhere St., Any City, ST 12345</p>
+              </div>
+              <div class="dotted-line"></div>
+              <div class="contact-item">
+                <span class="icon">📞</span>
+                <p>123-456-7890</p>
+              </div>
+              <div class="dotted-line"></div>
+              <div class="contact-item">
+                <span class="icon">📧</span>
+                <p>home.rental@rentnestsite.com</p>
+              </div>
+              <div class="dotted-line"></div>
+              <div class="contact-item">
+                <span class="icon">🌐</span>
+                <p>www.rentnestsite.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="icons-container">
+            <img class="img1" src="icons/location.png" alt="location-img"/>
+            <img class="img2" src="icons/phone.png" alt="phone-img"/>
+            <img class="img3"src="icons/email.png" alt="email-img"/>
+            <img class="img4" src="icons/internet.png" alt="internet-img"/>
+          </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">RentNest.</div>
+            <ul class="footer-links">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p>&copy; 2024 RentNest. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
